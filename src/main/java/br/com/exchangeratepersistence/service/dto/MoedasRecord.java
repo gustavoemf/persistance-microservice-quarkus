@@ -1,4 +1,4 @@
 package br.com.exchangeratepersistence.service.dto;
 
-public record MoedasRecord(ExchangeRateRecord BTCBRL, ExchangeRateRecord USDBRL, ExchangeRateRecord EURBRL) {
+public record MoedasRecord(ExchangeRateRecord BTCBRL, ExchangeRateRecord USDBRL) {
 }

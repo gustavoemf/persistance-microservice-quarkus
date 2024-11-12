@@ -3,6 +3,9 @@ package br.com.exchangeratepersistence.service.mapper;
 import br.com.exchangeratepersistence.entity.ExchangeRateEntity;
 import br.com.exchangeratepersistence.service.dto.ExchangeRateRecord;
 
+/**
+ * Classe de mapeamento para converter entre {@link ExchangeRateRecord} e {@link ExchangeRateEntity}.
+ */
 public class ExchangeRateMapper {
     public static ExchangeRateEntity toEntity(ExchangeRateRecord record){
         ExchangeRateEntity entity = new ExchangeRateEntity();
